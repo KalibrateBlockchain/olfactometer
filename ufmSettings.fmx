@@ -1,0 +1,279 @@
+object fmSettings: TfmSettings
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 608
+  ClientWidth = 391
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object tbToolbar: TToolBar
+    Size.Width = 391.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lTitle: TLabel
+      Align = Contents
+      Size.Width = 391.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Settings'
+    end
+    object btnBack: TSpeedButton
+      Align = Left
+      ModalResult = 1
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'backtoolbutton'
+    end
+  end
+  object cbShowFrame: TCheckBox
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 381.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Show crop frame'
+  end
+  object gbQ: TGroupBox
+    Align = Top
+    Position.Y = 196.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 165.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object rbPhoto: TRadioButton
+      Align = Top
+      GroupName = 'quality'
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 40
+      Text = 'Photo quality'
+    end
+    object rbMedium: TRadioButton
+      Align = Top
+      GroupName = 'quality'
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 39
+      Text = 'Medium quality'
+    end
+    object rbHigh: TRadioButton
+      Align = Top
+      GroupName = 'quality'
+      IsChecked = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 41.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 37
+      Text = 'High quality'
+    end
+    object rbLowQ: TRadioButton
+      Align = Top
+      GroupName = 'quality'
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 123.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 38
+      Text = 'Low quality'
+    end
+  end
+  object paCoef: TPanel
+    Align = Top
+    Position.Y = 361.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    object Label1: TLabel
+      Align = Left
+      AutoSize = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Mask coefficient:'
+      TabOrder = 0
+    end
+    object sbCoef: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Cursor = crIBeam
+      Min = 50.000000000000000000
+      Max = 99.000000000000000000
+      Value = 85.000000000000000000
+      Size.Width = 220.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object cbSaveDebugImages: TCheckBox
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 155.000000000000000000
+    Size.Width = 381.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Save debug images'
+  end
+  object paFrame: TPanel
+    Align = Top
+    Position.Y = 441.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    object Label2: TLabel
+      Align = Left
+      AutoSize = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Process every'
+      TabOrder = 2
+    end
+    object sbFrame: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 3
+      Cursor = crIBeam
+      Min = 1.000000000000000000
+      Max = 30.000000000000000000
+      Value = 4.000000000000000000
+      Size.Width = 156.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label3: TLabel
+      Align = Right
+      AutoSize = True
+      Position.X = 327.000000000000000000
+      Size.Width = 64.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'shot'
+      TabOrder = 1
+    end
+  end
+  object Panel3: TPanel
+    Align = Top
+    Position.Y = 48.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+  end
+  object cbShowRes: TCheckBox
+    Align = Top
+    IsChecked = True
+    Margins.Left = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 114.000000000000000000
+    Size.Width = 381.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Show resolution'
+  end
+  object gbShowImage: TGroupBox
+    Align = Top
+    Position.Y = 481.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 125.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    object rbShowOrig: TRadioButton
+      Align = Top
+      GroupName = 'show'
+      IsChecked = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      Text = 'Show original image only'
+    end
+    object rbShowMask: TRadioButton
+      Align = Top
+      GroupName = 'show'
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 41.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 13
+      Text = 'Show original+mask images'
+    end
+    object rbShowContours: TRadioButton
+      Align = Top
+      GroupName = 'show'
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 82.000000000000000000
+      Size.Width = 381.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 12
+      Text = 'Show original+contours images'
+    end
+  end
+  object paHole: TPanel
+    Align = Top
+    Position.Y = 401.000000000000000000
+    Size.Width = 391.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    object Label4: TLabel
+      Align = Left
+      AutoSize = True
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Hole (%):'
+      TabOrder = 0
+    end
+    object sbHole: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Cursor = crIBeam
+      Min = 1.000000000000000000
+      Max = 90.000000000000000000
+      Value = 5.000000000000000000
+      Size.Width = 220.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

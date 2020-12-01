@@ -1,0 +1,131 @@
+object fmMain: TfmMain
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 598
+  ClientWidth = 486
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 3
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 501.000000000000000000
+    Size.Width = 486.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      TextSettings.WordWrap = True
+      Align = Client
+      Size.Width = 366.000000000000000000
+      Size.Height = 97.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 358.000000000000000000
+      Viewport.Height = 89.000000000000000000
+    end
+    object Panel2: TPanel
+      Align = Right
+      Position.X = 366.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 97.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Button1: TButton
+        Align = Top
+        Size.Width = 120.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Go!'
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Align = Top
+        Position.Y = 49.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'X'
+        OnClick = Button2Click
+      end
+    end
+  end
+  object Camera: TCameraComponent
+    OnSampleBufferReady = CameraSampleBufferReady
+    Left = 400
+    Top = 24
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 486.000000000000000000
+    Size.Height = 452.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Contents
+      Size.Width = 486.000000000000000000
+      Size.Height = 452.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TopLayout: TLayout
+      Align = Top
+      Size.Width = 486.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+    object BottomLayout: TLayout
+      Align = Bottom
+      Position.Y = 388.000000000000000000
+      Size.Width = 486.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 777
+    OnTimer = Timer1Timer
+    Left = 384
+    Top = 262
+  end
+  object Panel3: TPanel
+    Align = Top
+    Size.Width = 486.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 2
+      ReadOnly = True
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Size.Width = 428.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object buSettings: TButton
+      Align = Right
+      Position.X = 438.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      TabOrder = 3
+      OnClick = buSettingsClick
+    end
+  end
+end

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.077,=C:\1\src\CameraComponent\SIMD\libfastutils-android.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.406,=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.650,=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.977,C:\1\src\OpenCV-Android-Firemonkey-master\jar\AndroidOpenCV.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.002,=C:\1\src\OpenCV-Android-Firemonkey-master\jar\AndroidOpenCV.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.853,C:\1\src\CameraComponent\SIMD\libfastutils-android.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,C:\1\src\CameraComponent\SIMD\FastUtils_.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.472,=C:\1\src\CameraComponent\SIMD\FastUtils_.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\1\src\Kastri\Lib\dw-camera.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.461,=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.633,=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.490,=C:\1\src\Olfactometer\OpenCV-Android-Firemonkey\jar\AndroidOpenCV.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.259,=C:\1\src\Olfactometer\cameracomponent\SIMD\FastUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,=C:\1\src\CameraComponent\SIMD\libfastutils-android-32.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.677,C:\1\src\Olfactometer\ufmMain.pas=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.420,C:\1\src\CameraComponent\SIMD\FastUtils.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,C:\1\src\Olfactometer\ufmSettings.fmx=C:\1\src\Olfactometer\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.808,C:\1\src\Olfactometer\Olfactometer.dproj=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.765,C:\1\src\CameraComponent\SIMD\libfastutils-android-32.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,=C:\1\src\CameraComponent\SIMD\FastUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.604,=C:\1\src\CameraComponent\SIMD\FastUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.677,C:\1\src\Olfactometer\ufmMain.fmx=C:\Users\Midgard\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.343,C:\1\src\CameraComponent\SIMD\FastUtils.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.784,C:\1\src\CameraComponent\SIMD\FastUtils.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.402,=C:\1\src\CameraComponent\SIMD\FastUtils.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.781,=C:\1\src\Kastri\Lib\dw-camera.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,=C:\1\src\Olfactometer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.840,C:\1\src\CameraComponent\Custom\__FMX.Media.AVFoundation.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.686,=C:\1\src\CameraComponent\Custom\__FMX.Media.AVFoundation.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.678,=C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.684,=C:\1\src\Olfactometer\cameracomponent\Custom\FMX.Media.Android.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,C:\1\src\Olfactometer\ufmSettings.pas=C:\1\src\Olfactometer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.713,=C:\1\src\Olfactometer\imgs.rc</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.193,C:\1\src\Olfactometer\imgs.rc=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.616,=C:\1\src\Olfactometer\imgs.rc</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.841,C:\1\src\CameraComponent\SIMD\libfastutils-android-thumb.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.084,=C:\1\src\CameraComponent\SIMD\libfastutils-android-thumb.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.449,C:\1\src\Olfactometer\imgs.rc=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.353,C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.812,C:\1\src\CameraComponent\SIMD\libfastutils-android-64.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.077,=C:\1\src\CameraComponent\SIMD\libfastutils-android-arm.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.828,C:\1\src\CameraComponent\SIMD\libfastutils-android-arm.a=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.775,C:\1\src\Kastri\Lib\dw-camera.jar=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.180,=C:\1\src\Kastri\Lib\dw-camera.jar</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.921,=C:\1\src\CameraComponent\SIMD\libfastutils-android-64.a</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.990,C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.871,=C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.702,=C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.229,=C:\1\src\CameraComponent\Custom\__recovery</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.470,=C:\1\src\CameraComponent\Custom\__history</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.482,C:\1\src\CameraComponent\Custom\FMX.Media.Android.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="" Android=""/>
+		<Piphone6 iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
